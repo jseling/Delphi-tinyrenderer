@@ -110,10 +110,10 @@ begin
 
   light_dir := TVector3f.Create(0,0,-1);
 
-  AModel := TObjModel.Create('african_head.obj');
+  AModel := TObjModel.Create('..\..\Resources\african_head.obj');
   ATexture := TBitmap.Create;
   try
-    ATexture.LoadFromFile('african_head_diffuse.bmp');
+    ATexture.LoadFromFile('..\..\Resources\african_head_diffuse.bmp');
     FlipVertical(ATexture);
     for i:=0 to AModel.FaceCount -1 do
     begin

@@ -107,7 +107,7 @@ begin
 
   light_dir := TVector3f.Create(0,0,-1);
 
-  AModel := TObjModel.Create('african_head.obj');
+  AModel := TObjModel.Create('..\..\Resources\african_head.obj');
   try
     for i:=0 to AModel.FaceCount -1 do
     begin

@@ -131,7 +131,7 @@ var
   v0, v1: TVector3f;
   x0, x1, y0, y1: Integer;
 begin
-  AModel := TObjModel.Create('african_head.obj');
+  AModel := TObjModel.Create('..\..\Resources\african_head.obj');
   try
     for i:=0 to AModel.FaceCount -1 do
     begin
